@@ -12,8 +12,8 @@ public class Shirt {
         return inventory;
     }
 
-    public void setInventory(int inventory){
-        inventory = inventory;
+    public void setInventory(int inv){
+        inventory = inv;
     }
 
     public String getDescription(){

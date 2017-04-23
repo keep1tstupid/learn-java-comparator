@@ -21,7 +21,6 @@ public class mySort {
         polo1.setColor("brown");
         polo1.setSize("S");
 
-
         Shirt polo2 = new Shirt();
         polo2.setInventory(234234);
         polo2.setShirt_ID("234qwe");
@@ -47,7 +46,6 @@ public class mySort {
         poloList.add(polo2);
         poloList.add(polo3);
         poloList.add(polo4);
-
 
         SortShirtByDesc sortDescription = new SortShirtByDesc();
         SortShirtByInventory sortCount = new SortShirtByInventory();

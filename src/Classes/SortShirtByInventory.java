@@ -8,10 +8,10 @@ public class SortShirtByInventory implements Comparator<Shirt>{
         int inv1 = a.getInventory();
         int inv2 = b.getInventory();
 
-        if(inv1 > inv2) {
+        if (inv1 > inv2) {
             return 1;
         }
-        else if(inv1 < inv2) {
+        else if (inv1 < inv2) {
             return -1;
         }
         else {
